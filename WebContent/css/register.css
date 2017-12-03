@@ -1,0 +1,137 @@
+body {
+	background:#dfdfdf;
+}
+*{
+	margin:0 auto;
+}
+.wrapper{
+	width:500px;
+	height:400px;
+	border: 0px solid black;
+	 border-radius: 3px;
+	background: #1c89ca;
+  	background: -webkit-linear-gradient(top left, #1c89ca 0%, #7ebaef 100%);
+  	background: linear-gradient(to bottom right, #1c89ca 0%, #7ebaef 100%);
+  	opacity: 0.5;
+  	position: absolute;
+  	top:25%;
+  	left:30%;
+}
+table {
+	width: 350px;	
+	margin:20px 20px auto;
+	border-collapse:collapse;
+	color: white;
+	font-weight:bold;
+	position: relative;
+}
+td {
+	border: none;
+	line-height:100%;
+}
+form td input {
+  outline: 0;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color:white;
+  opacity: 0.4;
+  width: 200px;
+  display:block;
+  padding: 10px 15px;
+  margin: 5px auto 5px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  font-weight: 300;
+}
+form input:focus {
+  background-color: white;
+  text-align: center;
+  color: #2895c4;
+  opacity: 0.9;
+}
+
+
+.first_row {
+	width: 75px;
+	text-align: right;
+	height:100%;
+	line-height:100%;
+	color: white;
+	font-size:21px;
+	font-weight:200;
+}
+.first_row:nth-child(2) {
+	width: 200px;
+}
+.prompt {
+	background:none;
+	border:0px solid #fff;
+	width:70px;
+			
+}
+div{
+	width: 125px;
+}
+p {
+	display: none;
+	font-size: 12px;
+	color:#fff;
+			
+}
+
+.button {	
+	height:50px;
+	line-height: 30px;
+	text-align: center;
+			
+}
+.caption {
+	margin-top:20px;
+	width: 200px;
+	height: 50px;
+	line-height:50px;
+	margin-left:40%;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+	font-style:italic;
+	text-align: left;
+	
+}
+.bms {
+	text-align:center;
+	margin-left:36%;
+	margin-top:70px; 
+	font:normal 20px 'Calibri';
+	color:#000000";
+	font-weight:100;
+}
+form button {
+  display:block;
+  float:left;
+  margin: 20px auto 10px auto;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #53e3a6;
+  border-radius: 5px;
+  width: 130px;
+  height:50px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+.reset {
+	margin-left:55px;
+	margin-right:60px;
+}         
+.reset:hover, .submit:hover {
+	color:#FFF;
+	background:rgba(70,163,255,0.5);
+}
